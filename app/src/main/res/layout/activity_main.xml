@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/guess1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginBottom="280dp"
+        android:text="Guess #1"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/inputGuess"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g1l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guess1"
+        app:layout_constraintEnd_toStartOf="@+id/g1l2"
+        app:layout_constraintTop_toTopOf="@+id/guess1" />
+
+    <TextView
+        android:id="@+id/g1l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g1l1"
+        app:layout_constraintEnd_toStartOf="@+id/g1l3"
+        app:layout_constraintTop_toTopOf="@+id/g1l1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g1l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g1l2"
+        app:layout_constraintEnd_toStartOf="@+id/g1l4"
+        app:layout_constraintTop_toTopOf="@+id/g1l2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g1l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g1l3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g1l3" />
+
+    <TextView
+        android:id="@+id/guess1check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Guess #1 check"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/guess1"
+        app:layout_constraintTop_toBottomOf="@+id/guess1" />
+
+    <TextView
+        android:id="@+id/g1l1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guess1check"
+        app:layout_constraintEnd_toStartOf="@+id/g1l2"
+        app:layout_constraintTop_toTopOf="@+id/guess1check" />
+
+    <TextView
+        android:id="@+id/g1l2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g1l1c"
+        app:layout_constraintEnd_toStartOf="@+id/g1l3c"
+        app:layout_constraintTop_toTopOf="@+id/g1l1c"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g1l3c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g1l2c"
+        app:layout_constraintEnd_toStartOf="@+id/g1l4c"
+        app:layout_constraintTop_toTopOf="@+id/g1l2c"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g1l4c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g1l3c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g1l3c" />
+
+    <TextView
+        android:id="@+id/guess2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Guess #2"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/guess1check"
+        app:layout_constraintTop_toBottomOf="@+id/guess1check" />
+
+    <TextView
+        android:id="@+id/g2l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guess2"
+        app:layout_constraintEnd_toStartOf="@+id/g2l2"
+        app:layout_constraintTop_toTopOf="@+id/guess2" />
+
+    <TextView
+        android:id="@+id/g2l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g2l1"
+        app:layout_constraintEnd_toStartOf="@+id/g2l3"
+        app:layout_constraintTop_toTopOf="@+id/g2l1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g2l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g2l2"
+        app:layout_constraintEnd_toStartOf="@+id/g2l4"
+        app:layout_constraintTop_toTopOf="@+id/g2l2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g2l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g2l3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g2l3" />
+
+
+    <TextView
+        android:id="@+id/guess2check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Guess #2 check"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/guess2"
+        app:layout_constraintTop_toBottomOf="@+id/guess2" />
+
+    <TextView
+        android:id="@+id/g2l1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guess2check"
+        app:layout_constraintEnd_toStartOf="@+id/g2l2"
+        app:layout_constraintTop_toTopOf="@+id/guess2check" />
+
+    <TextView
+        android:id="@+id/g2l2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g2l1c"
+        app:layout_constraintEnd_toStartOf="@+id/g2l3c"
+        app:layout_constraintTop_toTopOf="@+id/g2l1c"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g2l3c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g2l2c"
+        app:layout_constraintEnd_toStartOf="@+id/g2l4c"
+        app:layout_constraintTop_toTopOf="@+id/g2l2c"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g2l4c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g2l3c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g2l3c" />
+
+    <TextView
+        android:id="@+id/guess3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="Guess #3"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/guess2check"
+        app:layout_constraintTop_toBottomOf="@+id/guess2check" />
+
+    <TextView
+        android:id="@+id/g3l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guess3"
+        app:layout_constraintEnd_toStartOf="@+id/g3l2"
+        app:layout_constraintTop_toTopOf="@+id/guess3" />
+
+    <TextView
+        android:id="@+id/g3l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g3l1"
+        app:layout_constraintEnd_toStartOf="@+id/g3l3"
+        app:layout_constraintTop_toTopOf="@+id/g3l1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g3l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g3l2"
+        app:layout_constraintEnd_toStartOf="@+id/g3l4"
+        app:layout_constraintTop_toTopOf="@+id/g3l2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g3l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g3l3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g3l3" />
+
+
+    <TextView
+        android:id="@+id/guess3check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Guess #3 check"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/guess3"
+        app:layout_constraintTop_toBottomOf="@+id/guess3" />
+
+    <TextView
+        android:id="@+id/g3l1c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guess3check"
+        app:layout_constraintEnd_toStartOf="@+id/g3l2"
+        app:layout_constraintTop_toTopOf="@+id/guess3check" />
+
+    <TextView
+        android:id="@+id/g3l2c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g3l1c"
+        app:layout_constraintEnd_toStartOf="@+id/g3l3c"
+        app:layout_constraintTop_toTopOf="@+id/g3l1c"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g3l3c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g3l2c"
+        app:layout_constraintEnd_toStartOf="@+id/g3l4c"
+        app:layout_constraintTop_toTopOf="@+id/g3l2c"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/g3l4c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text=" "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/g3l3c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/g3l3c" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="48dp"
+        android:text="check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/inputGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter 4 letter guess here"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/buttonCheck"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCheck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonCheck" />
+
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text=" "
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/inputGuess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/messageBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="360dp"
+        android:height="24dp"
+        android:text="You have 3 guesses remaining"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
