@@ -32,7 +32,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Wordle](https://user-images.githubusercontent.com/86134647/189564191-623e87b7-b9a1-4c50-a248-95a129e013e7.gif)
+![Wordle](https://user-images.githubusercontent.com/86134647/190288777-df64a98d-728f-4d6b-8fe4-05fc1224dd0f.gif)
+
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
